@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './ContactUs.css'; // Import external CSS file
+import './contactUs.css'; // Import external CSS file
 
 export default function ContactUs() {
   const [formData, setFormData] = useState({
