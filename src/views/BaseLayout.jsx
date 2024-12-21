@@ -24,7 +24,7 @@ const BaseLayout = () => {
         <Outlet />
       </main>
       <footer className="bg-light">
-        <p>© Copyright 2024</p>
+        <p className="foot">© Copyright 2024 <span>|</span> <a href="/ContactUs">Contact US</a>|<a href="\AboutUs">About US</a></p>
       </footer>
     </div>
   );

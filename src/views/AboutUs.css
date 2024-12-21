@@ -1,0 +1,163 @@
+/* AboutUs.css */
+
+/* Basic reset for margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* About Us Page Container */
+  .about-us-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Section */
+  .about-us-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-us-header h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+  }
+  
+  .about-us-header p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-top: 10px;
+  }
+  
+  /* About Us Content Section */
+  .about-us-content {
+    margin-bottom: 40px;
+  }
+  
+  .team-section,
+  .mission-section {
+    margin-bottom: 30px;
+  }
+  
+  .team-section h3,
+  .mission-section h3 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    text-align: center;
+    width: 30%;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .team-member h4 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+  
+  /* Mission Section */
+  .mission-section p {
+    font-size: 1.1rem;
+    color: #34495e;
+  }
+  
+  /* Social Media Section */
+  .social-media-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .social-media-section h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+  }
+  
+  .social-media-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-link {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: rgb(63, 67, 70);
+    border-radius: 70px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-link:hover {
+    background-color: #4f5255;
+  }
+  
+  .ot{
+    display: flex;
+    justify-content: center;
+  }
+  .om{
+    display: flex;
+    justify-content: center;
+  }
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .about-us-container {
+      padding: 15px;
+    }
+  
+    .team-members {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .team-member {
+      width: 80%;
+      margin-bottom: 30px;
+    }
+  
+    .social-media-links {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .social-link {
+      margin-bottom: 10px;
+    }
+  }
+  
